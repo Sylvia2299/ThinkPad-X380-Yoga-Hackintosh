@@ -28,7 +28,6 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 | SSD       | Lexar NM620 512GB M.2 NVMe SSD                       | Replaced cursed PM 981 which still doesn't work reliably. Read this [Anti-Hackintosh Buyers Guide - Storage](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/Storage.html)     |
 | Screen    | 13.3" FHD 1920x1080                                  | Multi touch and pen* support working                         |
 | Memory    | 16GB DDR4 2400Mhz                                    |                                                              |
-| Battery   | Integrated Li-Polymer 51Wh                           | Single battery                                               |
 | Camera    | 720p Camera + IR Camera                              |                                                              |
 | Audio     | Conexant® CX8200                                     | I suggest trying several layout ID `3, 15, 21, 23, or 80`    |
 | Touchoad  | ELAN v4 LEN2034 PS2 Interace                         |                                                              |
