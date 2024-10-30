@@ -209,7 +209,7 @@ git clone https://github.com/corpnewt/GenSMBIOS && cd GenSMBIOS && chmod +x GenS
 
 | Idle State                | Max Frequency                  | 2 Thread Frequency             | All Thread Frequency           | GPU Max Frequency              |
 | ------------------------- | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ |
-| ![](/Images/ipg-idle.png) | ![](./Images/ipg-max-freq.png) | ![](./Images/ipg-two-freq.png) | ![](./Images/ipg-all-freq.png) | ![](./Images/ipg-gpu-freq.png) |
+| ![](./Images/ipg-idle.png) | ![](./Images/ipg-max-freq.png) | ![](./Images/ipg-two-freq.png) | ![](./Images/ipg-all-freq.png) | ![](./Images/ipg-gpu-freq.png) |
 
 </details>
 
