@@ -212,3 +212,26 @@ git clone https://github.com/corpnewt/GenSMBIOS && cd GenSMBIOS && chmod +x GenS
 | ![](/Images/ipg-idle.png) | ![](./Images/ipg-max-freq.png) | ![](./Images/ipg-two-freq.png) | ![](./Images/ipg-all-freq.png) | ![](./Images/ipg-gpu-freq.png) |
 
 </details>
+
+<details>  
+<summary><strong>Benchmarks ⏱</strong></summary>
+</br>
+
+| CPU         | Single-Core | Multi-Core |
+| :---------- | ----------: | ---------: |
+| Geekbench 5 |         686 |       2810 |
+| **GPU**     |  **OpenCL** |  **Metal** |
+| Geekbench 5 |        4351 |       4051 |
+
+<small>macOS Seqoia 15.1, EFI release 1.0.2, CPU:i5-8350u</small>
+</details>
+
+## Credits:
+- [Apple](https://apple.com) for macOS.
+- [Acidanthera](https://github.com/acidanthera) for OpenCore, Kexts and maciASL
+- [CorpNewt](https://github.com/corpnewt) for ProperTree, CPUFriendFriend and SSDTTime
+- [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) For great and detailed guides.
+- [ic005k](https://github.com/ic005k/OCAuxiliaryTools) for OpenCore Auxiliary Tools
+- [benbaker76](https://github.com/benbaker76/Hackintool) for Hackintool
+- [zhen-zen](https://github.com/zhen-zen/YogaSMC) for YogaSMC
+- [r/hackintosh](https://www.reddit.com/r/hackintosh/)
