@@ -245,7 +245,7 @@ Super useful shortcut that I wish I had it on my previous MBP. Default is `âŒ˜â‡
 1. Get a pair of Patch & SSDT from [Samples](./Tools/Thinkpad%20Assistant/Samples/SSDT-X380-KBRD.dsl) folder
 2. Compile SSDT (ex. `iasl -vo SSDT-X380-KBRD.dsl`)
 3. Copy `SSDT.aml` to EFI/OC/ACPI
-4. Apply patch on `config.plst` with [MaciASL](https://github.com/acidanthera/MaciASL)
+4. Apply patch on `config.plst` with [OCAT](https://github.com/ic005k/OCAuxiliaryTools)
 5. Download [Thinkpad Assistant](./Tools/Thinkpad%20Assistant/ThinkpadAssistant.dmg)
 6. Extract & Copy to Applications folder
 7. Start Thinkpad Assistant & Tick 'Launch on Login' in Menubar
