@@ -221,7 +221,7 @@ Or try an [alternative method](https://github.com/bbhardin/A-Guide-to-MacOS-Scal
 - Download [**YogaSMC-App**](https://github.com/zhen-zen/YogaSMC/files/14324664/Builds.zip) and mount it. This is a custom build which fixes the "Failed to open Preferences" [issue](https://github.com/zhen-zen/YogaSMC/issues/189) in Ventura and newer  
 	- Double-click the YogaSMC **prefPane** to install it
 	- Drag the `YogaSMC` app into the "Programs" folder and run it
-	- Click on the icon (⌥) in the menu bar and select "Start at Login"
+	- Click on the icon (`⌥`) in the menu bar and select "Start at Login"
 	- Now you can control performance profiles, fan speed and other settings
 </details>
 
@@ -242,10 +242,10 @@ Super useful shortcut that I wish I had it on my previous MBP. Default is `⌘�
 <summary><strong>Use Thinkpad Assistant </strong></summary>
 </br>
 
-1. Get a pair of Patch & SSDT from [Samples](./Tools/Thinkpad%20Assistant/SSDT-X380-KBRD.dsl) folder
-2. Compile SSDT (ex. iasl -vo SSDT-X380-KBRD.dsl)
-3. Copy SSDT.aml to EFI/OC/ACPI
-4. Apply patch on config.plst with PlistBuddy
+1. Get a pair of Patch & SSDT from [Samples](./Tools/Thinkpad%20Assistant/Samples/SSDT-X380-KBRD.dsl) folder
+2. Compile SSDT (ex. `iasl -vo SSDT-X380-KBRD.dsl`)
+3. Copy `SSDT.aml` to EFI/OC/ACPI
+4. Apply patch on `config.plst` with [MaciASL](https://github.com/acidanthera/MaciASL)
 5. Download [Thinkpad Assistant](./Tools/Thinkpad%20Assistant/ThinkpadAssistant.dmg)
 6. Extract & Copy to Applications folder
 7. Start Thinkpad Assistant & Tick 'Launch on Login' in Menubar
