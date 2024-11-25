@@ -21,7 +21,7 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 ## 👋 Introduction
 
 <details>  
-<summary><strong>Getting started 📖</strong></summary>
+<summary><strong>📖 Getting started</strong></summary>
 </br>
 
 **Meet the Bootloader:**
@@ -44,7 +44,7 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 </details>
 
 <details> 
-<summary><strong>My Hardware 💻 </strong></summary>
+<summary><strong>💻 My Hardware</strong></summary>
 </br>
 
 | Category  | Component                                            | Note                                                         |
@@ -65,14 +65,12 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 </details>
 
 <details>
-<summary><strong>Main software 📦</strong></summary>
+<summary><strong>📦 Main software</strong></summary>
 
-| Component    | Version |
-| ------------ | ------- |
-| macOS Sequoia | 15.1  |
-| OpenCore     | v1.0.2  |
-
-
+| Component     | Version |
+| ------------- | ------- |
+| macOS Sequoia | 15.1    |
+| OpenCore      | v1.0.2  |
 
 </details>
 
@@ -344,7 +342,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 ## 📊 Status
 
 <details>  
-<summary><strong>What's working ✅</strong></summary>
+<summary><strong>✅ What's working</strong></summary>
 </br>
 
 - [x] Intel HD 620 Graphics `incuding graphics acceleration`
@@ -364,7 +362,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 </details>
 
 <details>  
-<summary><strong>What's not working ⚠️</strong></summary>
+<summary><strong>⚠️ What's not working</strong></summary>
 </br>
 
 - [ ] Safari DRM `Use Chromium engine to watch Apple TV+, Amazon Prime Video, Netflix and others`
@@ -375,7 +373,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 </details>
 
 <details>  
-<summary><strong>Not tested 🔄</strong></summary>
+<summary><strong>🔄 Not tested</strong></summary>
 </br>
 
 - [ ] Apple Watch Unlock
@@ -389,7 +387,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 ## ⚡ Performance
 
 <details>  
-<summary><strong>Power consumption and thermals 🔥</strong></summary>
+<summary><strong>🔥 Power consumption and thermals</strong></summary>
 </br>
 
 | Idle State                     | Max Frequency                  | 2 Thread Frequency             | All Thread Frequency           | GPU Max Frequency              |
@@ -399,7 +397,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 </details>
 
 <details>  
-<summary><strong>Benchmarks ⏱️</strong></summary>
+<summary><strong>⏱️ Benchmarks</strong></summary>
 </br>
 
 | CPU         | Single-Core | Multi-Core |
