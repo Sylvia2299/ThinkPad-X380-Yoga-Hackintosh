@@ -399,6 +399,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 <details>  
 <summary><strong>⏱️ Benchmarks</strong></summary>
 </br>
+**macOS Seqoia 15.1**
 
 | CPU         | Single-Core | Multi-Core |
 | :---------- | ----------: | ---------: |
@@ -406,7 +407,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 | **GPU**     |  **OpenCL** |  **Metal** |
 | Geekbench 5 |        4351 |       4051 |
 
-<small>macOS Seqoia 15.1, EFI release 1.0.2, CPU:i5-8350u</small>
+<small>macOS Seqoia 15.1, EFI release 1.0.2, CPU: i5-8350U</small>
 </details>
 
 ## Credits
