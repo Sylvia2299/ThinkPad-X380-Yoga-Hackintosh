@@ -1,12 +1,5 @@
 # Lenovo ThinkPad X380 Yoga - OpenCore Configuration
 
-<p align="center">
-  <a href="https://github.com/kotakbiasa/ThinkPad-X380-Yoga-Hackintosh-OpenCore" target="_blank">
-    <img alt="Moe Counter!" src="https://count.getloli.com/@kotakbiasa.github?name=ThinkPad-X380-Yoga-Hackintosh-OpenCore.github&theme=booru-lewd&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto">
-  </a>
-</p>
-
-
 <img align="right" src="https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MzY5NzQ4fGltYWdlL3BuZ3xoMTEvaGMwLzE0NDQ4MTg0NTI0ODMwLnBuZ3wyZjE4MmQ5YmEyN2U1M2VhOTJkZDM4NzFjMTUzNDk2M2NmOGQ5OTQ2MjYxNTVlNjY3YmYxMTU4ZDM2Y2RmNjlk/lenovo-laptop-thinkpad-x380-2-in-1-hero.png" alt="macOS running on the X380 Yoga" width="425">
 
 [![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg?logo=apple)](https://developer.apple.com/documentation/macos-release-notes)
