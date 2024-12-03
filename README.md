@@ -399,6 +399,7 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 <details>  
 <summary><strong>⏱️ Benchmarks</strong></summary>
 </br>
+
 | CPU         | Single-Core | Multi-Core |
 | :---------- | ----------: | ---------: |
 | Geekbench 5 |         686 |       2810 |
