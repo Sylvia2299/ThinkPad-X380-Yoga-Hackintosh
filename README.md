@@ -264,6 +264,24 @@ This enables auto-hide and speeds up the animation
    </details>
 
 <details>  
+<summary><strong>Fix Windows Time Sync</strong></summary>
+</br>
+
+`RealTimeIsUniversal` registry key still works in Windows 8, 10, and 11! Just tested it by myself. The instructions to use this method are explained lot of times everywhere, for example in this answer.
+
+I will replicate the answer here:
+
+`Win+S`, `regedit`, `Enter`.
+
+Navigate to the key:
+
+`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`.
+Create new `DWORD (32-bit) Value`, name it `RealTimeIsUniversal`. Set its value to `1`.
+
+After this is done, just reboot your machine. After it is up and running again, let Windows set time automatically (click on the current time in tray, `Date and Time` `Settings` > `Set Time Automatically`), this time it will not mess with it.
+</details>
+
+<details>  
 <summary><strong>Boot process tweaks</strong></summary>
 </br>
 
