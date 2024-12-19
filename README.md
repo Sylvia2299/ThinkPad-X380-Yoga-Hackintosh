@@ -69,8 +69,8 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 
 | Component     | Version |
 | ------------- | ------- |
-| macOS Sonoma  | 14.7.1  |
-| OpenCore      | v1.0.2  |
+| macOS Sonoma  | 14.7.2  |
+| OpenCore      | v1.0.3  |
 
 </details>
 
@@ -113,7 +113,7 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 
 Config to allow you to use Apple Services (such as iMessage)
 
-> [!NOTE]
+> **🗒️Note:**
 >
 > If you (still) can't login to iMessage you may need to contact Apple Support to unblacklist your AppleID (You can try opening the Message app from terminal to check the log to see if you're getting a Customer Code error, which is an indication that your AppleID got blacklisted. [See more info here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#customer-code-error))
 
@@ -173,7 +173,7 @@ Although the Intel AC-8265 Card is compatible with both kexts (use either one or
 
 - Pre-compiled WiFi kexts for other versions of macOS can be found in the [Additional Files](hhttps://github.com/OpenIntelWireless/itlwm/releases) section! You will need them if you want to run other macOS versions than Sonoma or Sequioa!
 
-> [!NOTE]
+> **🗒️Note:**
 > 
 > My config uses `AirportItlw.kext` by default since it allows accessing the internet during macOS installation (unlike `itlwm.kext` which requires an additional app to do so). Currently, AirportItlwm kexts for macOS Sequoia is included but you must patch, you can find how to patch [`see this`](https://osxlatitude.com/forums/topic/20330-wifi-in-sequoia-150-beta-patching-for-legacy-broadcom-wireless-cards/). If you want to use itlwm, disable AirportItlwm (all variants) and enable itlwm in the config.plist instead. Next, download the Helipad app, run it and add it to "Login Items" (in System Settings) so that it starts automatically with macOS.
 
