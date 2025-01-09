@@ -408,10 +408,15 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 <summary><strong>🔥 Power consumption and thermals</strong></summary>
 </br>
 
+Sequoia
 | Idle State                     | Max Frequency                  | 2 Thread Frequency             | All Thread Frequency           | GPU Max Frequency              |
 | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ |
 | ![](/Images/ipg-idle-freq.png) | ![](./Images/ipg-max-freq.png) | ![](./Images/ipg-two-freq.png) | ![](./Images/ipg-all-freq.png) | ![](./Images/ipg-gpu-freq.png) |
 
+Sonoma
+| Idle State                     | Max Frequency                  | 2 Thread Frequency             | All Thread Frequency           | GPU Max Frequency              |
+| ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ |
+| ![](/Images/ipg-idle-freq-sonoma.png) | ![](./Images/ipg-max-freq-sonoma.png) | ![](./Images/ipg-two-freq-sonoma.png) | ![](./Images/ipg-all-freq-sonoma.png) | ![](./Images/ipg-gpu-freq-sonoma.png) |
 </details>
 
 <details>  
