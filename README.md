@@ -423,20 +423,19 @@ Sonoma
 <summary><strong>⏱️ Benchmarks</strong></summary>
 </br>
 
-**Sequoia**
 | CPU         | Single-Core | Multi-Core |
 | :---------- | ----------: | ---------: |
 | Geekbench 5 |         686 |       2810 |
 | **GPU**     |  **OpenCL** |  **Metal** |
 | Geekbench 5 |        4351 |       4051 |
+<small>macOS Seqoia 15.1, EFI release 1.0.2, CPU: i5-8350U</small>
 
-**Sonoma**
 | CPU         | Single-Core | Multi-Core |
 | :---------- | ----------: | ---------: |
 | Geekbench 5 |         755 |       2479 |
 | **GPU**     |  **OpenCL** |  **Metal** |
 | Geekbench 5 |        2819 |       2471 |
-<small>macOS Seqoia 15.1, EFI release 1.0.2, CPU: i5-8350U</small>
+<small>macOS Sonoma14.7.2, EFI release 1.0.3, CPU: i5-8350U</small>
 </details>
 
 ## Credits
