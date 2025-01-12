@@ -69,7 +69,7 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 
 | Component     | Version |
 | ------------- | ------- |
-| macOS Sonoma  | 14.7.2  |
+| macOS Sonoma  | 15.2  |
 | OpenCore      | v1.0.3  |
 
 </details>
@@ -81,7 +81,7 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 </br>
 
 1. [Create an installation media](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer)
-1. Download the [latest EFI folder](https://github.com/simprecicchiani/ThinkPad-T460s-macOS-OpenCore/releases) and copy it into the ESP partiton
+1. Download the [latest EFI folder](https://github.com/kotakbiasa/ThinkPad-X380-Yoga-Hackintosh/archive/refs/heads/main.zip) and copy it into the ESP partiton
 1. Change your BIOS settings according to the table below
 1. Boot from the USB installer (press `F12` to choose boot volume) and [start the installation process](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb)
 
@@ -331,6 +331,79 @@ To restore default system settings run
 ```
 sudo pmset restoredefaults
 ```
+</details> 
+
+<details> 
+<summary><strong>Grant/remove accessibility permissions to any app</strong></summary>
+
+tccutil with extended capabilities allowing you to grant/remove accessibility permissions to any app.
+
+I never recommend manually modifying any system database because if a mistake is made you risk boot-looping your computer. This is why this tool is using the undocumented TCC.framework to make changes just like macOS does internally. 
+
+Requires SIP and AMFI to be disabled.
+
+Currently can only add one or all (not recommended) services at a time. Using `reset All` is fine.
+
+```
+tccplus [add/reset] SERVICE [BUNDLE_ID]
+Services: 
+ - All 
+ - Accessibility 
+ - AddressBook 
+ - AppleEvents 
+ - Calendar 
+ - Camera 
+ - ContactsFull 
+ - ContactsLimited 
+ - DeveloperTool 
+ - Facebook 
+ - LinkedIn 
+ - ListenEvent 
+ - Liverpool 
+ - Location 
+ - MediaLibrary 
+ - Microphone 
+ - Motion 
+ - Photos 
+ - PhotosAdd 
+ - PostEvent 
+ - Reminders 
+ - ScreenCapture 
+ - ShareKit 
+ - SinaWeibo 
+ - Siri 
+ - SpeechRecognition 
+ - SystemPolicyAllFiles 
+ - SystemPolicyDesktopFolder 
+ - SystemPolicyDeveloperFiles 
+ - SystemPolicyDocumentsFolder 
+ - SystemPolicyDownloadsFolder 
+ - SystemPolicyNetworkVolumes 
+ - SystemPolicyRemovableVolumes 
+ - SystemPolicySysAdminFiles 
+ - TencentWeibo 
+ - Twitter 
+ - Ubiquity 
+ - Willow
+ ```
+Usage Example:
+Get application bundle ID:
+
+`grep 'BundleIdent' -A 1 /Applications/<APPLICATION NAME>/Contents/Info.plist`
+
+Pass result to `tccplus`
+```bash
+user@iMac ~ % grep 'BundleIdent' -A 1 /Applications/Discord.app/Contents/Info.plist
+    <key>CFBundleIdentifier</key>
+    <string>com.hnc.Discord</string>
+user@iMacc ~ % grep 'BundleIdent' -A 1 /Applications/zoom.us.app/Contents/Info.plist
+    <key>CFBundleIdentifier</key>
+    <string>us.zoom.xos</string>
+user@iMac ~ % ./tccplus add Microphone com.hnc.Discord
+Successfully added Microphone approval status for com.hnc.Discord
+```
+
+</details> 
 
 <details>  
 <summary><strong>Advanced energy management</strong></summary>
@@ -428,7 +501,7 @@ Sonoma
 | Geekbench 5 |         686 |       2810 |
 | **GPU**     |  **OpenCL** |  **Metal** |
 | Geekbench 5 |        4351 |       4051 |
-<small>macOS Seqoia 15.1, EFI release 1.0.2, CPU: i5-8350U</small>
+<small>macOS Seqoia 15.2, EFI release 1.0.2, CPU: i5-8350U</small>
 
 | CPU         | Single-Core | Multi-Core |
 | :---------- | ----------: | ---------: |
