@@ -427,8 +427,6 @@ and standbydelaylow is used when the remaining battery capacity is below highsta
 [Source](https://www.dssw.co.uk/reference/pmset.html)
 
 </details>
-</br>
-</details>
 
 ## 📊 Status
 
@@ -498,9 +496,9 @@ Sonoma
 
 | CPU         | Single-Core | Multi-Core |
 | :---------- | ----------: | ---------: |
-| Geekbench 5 |         686 |       2810 |
+| Geekbench 5 |         689 |       2670 |
 | **GPU**     |  **OpenCL** |  **Metal** |
-| Geekbench 5 |        4351 |       4051 |
+| Geekbench 5 |        4191 |       3683 |
 <small>macOS Seqoia 15.2, EFI release 1.0.2, CPU: i5-8350U</small>
 
 | CPU         | Single-Core | Multi-Core |
