@@ -69,7 +69,7 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 
 | Component     | Version |
 | ------------- | ------- |
-| macOS Sonoma  | 15.2  |
+| macOS Sequoia  | 15.2  |
 | OpenCore      | v1.0.3  |
 
 </details>
@@ -499,7 +499,7 @@ Sonoma
 | Geekbench 5 |         689 |       2670 |
 | **GPU**     |  **OpenCL** |  **Metal** |
 | Geekbench 5 |        4191 |       3683 |
-<small>macOS Seqoia 15.2, EFI release 1.0.2, CPU: i5-8350U</small>
+<small>macOS Sequoia 15.2, EFI release 1.0.3, CPU: i5-8350U</small>
 
 | CPU         | Single-Core | Multi-Core |
 | :---------- | ----------: | ---------: |
