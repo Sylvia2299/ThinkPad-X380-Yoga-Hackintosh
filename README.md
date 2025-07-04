@@ -69,8 +69,8 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 
 | Component     | Version |
 | ------------- | ------- |
-| macOS Sequoia  | 15.2  |
-| OpenCore      | v1.0.3  |
+| macOS Sonoma  | 14.7.6  |
+| OpenCore      | v1.0.4  |
 
 </details>
 
