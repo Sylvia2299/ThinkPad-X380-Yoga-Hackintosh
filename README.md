@@ -57,7 +57,7 @@ With that said I'm happy to help when/where I can. When you encounter bug or wan
 | Memory    | 16GB DDR4 2400Mhz                                    |                                                              |
 | Camera    | 720p Camera + IR Camera                              |                                                              |
 | Audio     | Conexant® CX8200                                     | I suggest trying several layout ID `3, 15, 21, 23, or 80`    |
-| Touchoad  | ELAN v4 LEN2034 PS2 Interace                         |                                                              |
+| Touchoad  | ELAN v4 LEN2034 PS2 Interace                         | Trackpad not working? You can disable trackpoint in bios.    |
 | Wifi & BT | Intel AC 8265 and Bluetooth                          | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control. |
 | Ethernet  | Intel I219-LM4 Gigabit Ethernet                      |                                                              | 
 | Input     | PS2 Keyboard & I2CHID TrackPad (touchscreen and pen) | I'm using [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys. The kext is in the folder but **you'll need to install the app.** |
